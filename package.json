@@ -1,0 +1,18 @@
+{
+  "name": "types-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts:build": "tsc",
+    "ts:gentypes": "rimraf dist && tsc --declaration"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.95.6",
+    "objection": "^2.2.15",
+    "rimraf": "^3.0.2"
+  }
+}
